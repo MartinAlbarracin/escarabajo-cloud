@@ -9,4 +9,6 @@ target
 /bin/
 .sbtserver/
 project/play-fork-run.sbt
-project/
+project/.sbtserver
+project/.sbtserver.lock
+project/sbt-ui.sbt
