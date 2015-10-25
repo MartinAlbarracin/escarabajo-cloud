@@ -32,6 +32,7 @@ resolvers += Resolver.url("Typesafe Ivy", url("http://repo.typesafe.com/typesafe
 resolvers += "Typesafe" at "http://repo.typesafe.com/typesafe/releases/"
 
 
+
 val appDependencies = Seq(  
   cache,
   javaWs,
