@@ -29,6 +29,8 @@ resolvers += "Sonatype OSS Snapshots" at "http://oss.sonatype.org/content/reposi
 
 resolvers += Resolver.url("Typesafe Ivy", url("http://repo.typesafe.com/typesafe/ivy-snapshots"))(Resolver.ivyStylePatterns)
 
+resolvers += Resolver.url("Typesafe Ivy releases", url("https://repo.typesafe.com/typesafe/ivy-releases"))(Resolver.ivyStylePatterns)
+
 resolvers += "Typesafe" at "http://repo.typesafe.com/typesafe/releases/"
 
 
